@@ -133,18 +133,18 @@ footer{color:var(--muted); font-size:12px; text-align:center; margin:22px 0 8px;
 }
 </style>
 </head>
-<body class="">
+<body>
 
 <header class="top">
   <h1>李勇 · 就诊资料</h1>
   <div class="sub">2026-07-23（周四）程忻专家门诊 · 神经内科 · 女儿代诊整理</div>
-  <div class="upd" id="updLine">最近更新 2026-07-19 23:54</div>
+  <div class="upd" id="updLine">最近更新 2026-07-22 21:47</div>
   <nav class="chips">
     <a href="#s-visit">就诊信息</a>
     <a href="#s-basic">基础情况</a>
     <a href="#s-tl">时间线</a>
     <a href="#s-rep">检查报告</a>
-    <a href="#s-med">用药</a>
+    <a href="#s-med">出院带药</a>
     <a href="#s-qa">医生可能问</a>
     <a href="#s-ask">我们要问</a>
     <a href="#s-todo">待办</a>
@@ -157,10 +157,9 @@ footer{color:var(--muted); font-size:12px; text-align:center; margin:22px 0 8px;
 <div class="sec" id="s-visit">
   <div class="card banner">
     <h3>🏥 就诊信息</h3>
-    <div class="d item"><b data-e="" contenteditable="true">2026-07-23（周四）程忻专家门诊 · 神经内科</b><span class="del">✕</span></div>
-    
-    <div class="d item"><span data-e="" contenteditable="true">女儿代诊；父亲在开远市人民医院就诊（7/11 入院，7/22出院）。</span><span class="del">✕</span></div>
-    <div class="d item"><span data-e="" contenteditable="true">随身带：就诊函、父亲身份证、笔记本电脑（DICOM 已装阅读器测试）、充电器、手机（症状视频+小程序已登录）、本页打印件。</span><span class="del">✕</span></div>
+    <div class="d item"><b data-e="">2026-07-23（周四 · 明天）程忻专家门诊 · 神经内科</b><span class="del">✕</span></div>
+    <div class="d item"><span data-e="">女儿代诊；父亲 7/11～7/22 住开远市人民医院神经内科（共 11 天），出院证已拿到。</span><span class="del">✕</span></div>
+    <div class="d item"><span data-e="">随身带：就诊函、出院证原件、父亲身份证、笔记本电脑（DICOM 已装阅读器测试）、充电器、手机（症状视频+小程序已登录）、本页打印件、MR 纸质报告。</span><span class="del">✕</span></div>
     <button class="add" data-tpl="tpl-line" data-for="#s-visit .card">＋ 添加一行</button>
   </div>
 </div>
@@ -171,24 +170,25 @@ footer{color:var(--muted); font-size:12px; text-align:center; margin:22px 0 8px;
 
   <div class="card" id="basic-kv">
     <h3>基本信息</h3>
-    <div class="kv item"><span class="k">姓名</span><span class="v" data-e="" contenteditable="true">李勇</span><span class="del">✕</span></div>
-    <div class="kv item"><span class="k">性别/年龄</span><span class="v" data-e="" contenteditable="true">男，1968-11-10 生（57 岁）</span><span class="del">✕</span></div>
-    <div class="kv item"><span class="k">地区</span><span class="v" data-e="" contenteditable="true">云南省红河州开远市</span><span class="del">✕</span></div>
-    <div class="kv item"><span class="k">残疾</span><span class="v" data-e="" contenteditable="true">四级肢体残疾：左肘关节缺如（2002年车祸；曾装人工关节，严重排异未保留）</span><span class="del">✕</span></div>
-    
+    <div class="kv item"><span class="k">姓名</span><span class="v" data-e="">李勇</span><span class="del">✕</span></div>
+    <div class="kv item"><span class="k">性别/年龄</span><span class="v" data-e="">男，1968-11-10 生（57 岁）</span><span class="del">✕</span></div>
+    <div class="kv item"><span class="k">身高/体重</span><span class="v" data-e="">170cm，67kg</span><span class="del">✕</span></div>
+    <div class="kv item"><span class="k">地区</span><span class="v" data-e="">云南省红河州开远市</span><span class="del">✕</span></div>
+    <div class="kv item"><span class="k">残疾</span><span class="v" data-e="">四级肢体残疾：左肘关节缺如（2002 年车祸；曾装人工关节，严重排异未保留）</span><span class="del">✕</span></div>
+    <div class="kv item"><span class="k">过敏史</span><span class="v" data-e="">林可霉素、氟哌酸过敏；人工关节严重排异史（2002 车祸后）</span><span class="del">✕</span></div>
     <button class="add" data-tpl="tpl-kv" data-for="#basic-kv">＋ 添加一行</button>
   </div>
 
   <div class="card">
-    <h3>主要诊断（2026-07-17，共 7 项）</h3>
+    <h3>出院诊断（2026-07-22 出院证，共 7 项）</h3>
     <ol class="b" id="dx-list">
-      <li class="item"><span data-e="" class="hl" contenteditable="true">右侧大脑中动脉闭塞</span><span class="del">✕</span></li>
-      <li class="item"><span data-e="" class="hl" contenteditable="true">血管性痴呆</span><span class="del">✕</span></li>
-      <li class="item"><span data-e="" contenteditable="true">脑动脉供血不足</span><span class="del">✕</span></li>
-      <li class="item"><span data-e="" contenteditable="true">继发性糖尿病伴多个并发症（血糖控制不佳、周围神经病、肾病、视网膜病变、周围血管病）</span><span class="del">✕</span></li>
-      <li class="item"><span data-e="" contenteditable="true">高血压 2 级，很高危组</span><span class="del">✕</span></li>
-      <li class="item"><span data-e="" contenteditable="true">高脂血症</span><span class="del">✕</span></li>
-      <li class="item"><span data-e="" contenteditable="true">胆囊结石</span><span class="del">✕</span></li>
+      <li class="item"><span data-e="">脑动脉供血不足</span><span class="del">✕</span></li>
+      <li class="item"><span data-e="" class="hl">血管性痴呆？（当地打了问号，待确诊——明天请程医生评估）</span><span class="del">✕</span></li>
+      <li class="item"><span data-e="" class="hl">右侧大脑中动脉闭塞</span><span class="del">✕</span></li>
+      <li class="item"><span data-e="">继发性糖尿病伴多个并发症（血糖控制不佳、周围神经病、肾病、视网膜病变、周围血管病）</span><span class="del">✕</span></li>
+      <li class="item"><span data-e="">高血压 2 级，很高危组</span><span class="del">✕</span></li>
+      <li class="item"><span data-e="">高脂血症</span><span class="del">✕</span></li>
+      <li class="item"><span data-e="">胆囊结石</span><span class="del">✕</span></li>
     </ol>
     <button class="add" data-tpl="tpl-li" data-for="#dx-list">＋ 添加诊断</button>
   </div>
@@ -196,10 +196,11 @@ footer{color:var(--muted); font-size:12px; text-align:center; margin:22px 0 8px;
   <div class="card">
     <h3>基础病与既往</h3>
     <ul class="b" id="hx-list">
-      <li class="item"><span data-e="" contenteditable="true">2 型糖尿病18年；高血压多年（2 级·很高危组）；高脂血症</span><span class="del">✕</span></li>
-      <li class="item"><span data-e="" contenteditable="true">糖尿病性周围神经病变（多发神经炎）</span><span class="del">✕</span></li>
-      <li class="item"><span data-e="" contenteditable="true">眼睛：右眼约2013年打羽毛球外伤失明；左眼白内障（2026-07 检查发现；2025-10 出院诊断已写"双眼代谢性白内障"）；糖尿病性视网膜病变</span><span class="del">✕</span></li>
-      <li class="item"><span data-e="" contenteditable="true">2025-10-08～16 内分泌·糖尿病科住院 8 天，出院诊断 13 项（见"检查报告"区）</span><span class="del">✕</span></li>
+      <li class="item"><span data-e="">胰腺炎后继发性糖尿病 18 年（2008 起；本次入院记录："血糖控制 1 年余"）；高血压 2025 年发现（最高 169）；高脂血症</span><span class="del">✕</span></li>
+      <li class="item"><span data-e="">糖尿病性周围神经病变（多发神经炎）</span><span class="del">✕</span></li>
+      <li class="item"><span data-e="">眼睛：右眼约 2013 年打羽毛球外伤失明；左眼白内障（2026-07 检查发现；2025-10 出院诊断已写"双眼代谢性白内障"）；糖尿病性视网膜病变</span><span class="del">✕</span></li>
+      <li class="item"><span data-e="">2025-10-08～16 内分泌·糖尿病科住院 8 天，出院诊断 13 项（见"检查报告"区）</span><span class="del">✕</span></li>
+      <li class="item"><span data-e="">2026-07-11～22 神经内科住院 11 天（出院诊断 7 项，见上方；出院证详情见"检查报告"区置顶）</span><span class="del">✕</span></li>
     </ul>
     <button class="add" data-tpl="tpl-li" data-for="#hx-list">＋ 添加一条</button>
   </div>
@@ -207,13 +208,13 @@ footer{color:var(--muted); font-size:12px; text-align:center; margin:22px 0 8px;
   <div class="card">
     <h3>认知与行为变化（家属观察，就诊主动讲）</h3>
     <ul class="b" id="cog-list">
-      <li class="item"><span class="tagline">≈2020</span><span data-e="" contenteditable="true">性格变冷：其母去世前后起，冷漠、不与人沟通、反应迟钝</span><span class="del">✕</span></li>
-      <li class="item"><span class="tagline">近一年</span><span data-e="" contenteditable="true">日间嗜睡明显：坐着玩手机也能睡着；夜睡 8 小时，早餐后、下午活动后仍入睡</span><span class="del">✕</span></li>
-      <li class="item"><span class="tagline">近年</span><span data-e="" contenteditable="true">开车经常出小事故；大小便控制欠佳</span><span class="del">✕</span></li>
-      <li class="item"><span class="tagline">疫情后</span><span data-e="" contenteditable="true">自述失去味觉</span><span class="del">✕</span></li>
-      <li class="item"><span class="tagline">体能</span><span data-e="" contenteditable="true">以前能一起爬山 → 现在主动说在山下等；目前每天走约一万步</span><span class="del">✕</span></li>
-      <li class="item"><span class="tagline">2026-06</span><span data-e="" contenteditable="true">还能去打掼蛋，但不和别人说话</span><span class="del">✕</span></li>
-      <li class="item"><span class="tagline">爱好</span><span data-e="" contenteditable="true">曾痴迷羽毛球（眼伤后减少）；无其他爱好，大学文化，但不喜欢学习</span><span class="del">✕</span></li>
+      <li class="item"><span class="tagline">≈2020</span><span data-e="">性格变冷：其母去世前后起，冷漠、不与人沟通、反应迟钝</span><span class="del">✕</span></li>
+      <li class="item"><span class="tagline">近一年</span><span data-e="">日间嗜睡明显：坐着玩手机也能睡着；夜睡 8 小时，早餐后、下午活动后仍入睡</span><span class="del">✕</span></li>
+      <li class="item"><span class="tagline">近年</span><span data-e="">开车经常出小事故；走路变慢、拖步；近一年偶有大小便控制不住</span><span class="del">✕</span></li>
+      <li class="item"><span class="tagline">疫情后</span><span data-e="">自述失去味觉</span><span class="del">✕</span></li>
+      <li class="item"><span class="tagline">体能</span><span data-e="">以前能一起爬山 → 现在主动说在山下等；目前每天走约一万步</span><span class="del">✕</span></li>
+      <li class="item"><span class="tagline">2026-06</span><span data-e="">还能去打掼蛋，但不和别人说话</span><span class="del">✕</span></li>
+      <li class="item"><span class="tagline">爱好</span><span data-e="">曾痴迷羽毛球（眼伤后减少）；无其他爱好，大学文化，但不喜欢学习</span><span class="del">✕</span></li>
     </ul>
     <button class="add" data-tpl="tpl-li" data-for="#cog-list">＋ 添加一条</button>
   </div>
@@ -221,9 +222,9 @@ footer{color:var(--muted); font-size:12px; text-align:center; margin:22px 0 8px;
   <div class="card">
     <h3>个人史</h3>
     <ul class="b" id="ps-list">
-      <li class="item"><span data-e="" contenteditable="true">吸烟：以前约每天 1 包；2026-07 住院起控制戒烟中（烟龄40年）</span><span class="del">✕</span></li>
-      <li class="item"><span data-e="" contenteditable="true">饮酒较少；饮食不太注意</span><span class="del">✕</span></li>
-      <li class="item"><span data-e="" contenteditable="true">运动：曾长期打羽毛球（约 2018 年眼伤后减少），现每日步行约一万步</span><span class="del">✕</span></li>
+      <li class="item"><span data-e="">吸烟：以前约每天 1 包（烟龄 40 年）；2026-07 住院起戒烟，出院后继续坚持</span><span class="del">✕</span></li>
+      <li class="item"><span data-e="">饮酒较少；饮食不太注意</span><span class="del">✕</span></li>
+      <li class="item"><span data-e="">运动：曾长期打羽毛球（约 2013 年眼伤后减少），现每日步行约一万步</span><span class="del">✕</span></li>
     </ul>
     <button class="add" data-tpl="tpl-li" data-for="#ps-list">＋ 添加一条</button>
   </div>
@@ -234,19 +235,22 @@ footer{color:var(--muted); font-size:12px; text-align:center; margin:22px 0 8px;
   <div class="sec-h"><h2>🕐 病史 / 就医时间线</h2><span class="cnt">点编辑可增删</span></div>
   <div class="card">
     <div class="tl" id="tl">
-      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="" contenteditable="true">2002</div><div class="tl-title" data-e="" contenteditable="true">车祸致残</div><div class="tl-desc" data-e="" contenteditable="true">左肘关节缺如；曾装人工关节，严重排异未保留（四级肢体残疾）</div></div>
-      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="" contenteditable="true">≈2013</div><div class="tl-title" data-e="" contenteditable="true">羽毛球外伤 · 一眼失明</div><div class="tl-desc" data-e="" contenteditable="true">打球时眼部受伤致右眼失明，此后运动减少</div></div>
-      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="" contenteditable="true">≈2020</div><div class="tl-title" data-e="" contenteditable="true">性格开始改变</div><div class="tl-desc" data-e="" contenteditable="true">其母去世前后起：情绪变冷、少言、不与人沟通、反应变慢</div></div>
-      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="" contenteditable="true">≈2025 年中</div><div class="tl-title" data-e="" contenteditable="true">日间嗜睡逐渐明显</div><div class="tl-desc" data-e="" contenteditable="true">白天随时入睡：玩手机、早饭后、下午活动后均能打盹</div></div>
-      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="" contenteditable="true">2025-10-08 ～ 16</div><div class="tl-title" data-e="" contenteditable="true">内分泌科住院 8 天</div><div class="tl-desc" data-e="" contenteditable="true">血糖控制不佳入院；出院诊断 13 项（糖尿病多并发症、高血压 2 级很高危、高脂血症等）</div></div>
-      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="" contenteditable="true">2026-06</div><div class="tl-title" data-e="" contenteditable="true">社交状态</div><div class="tl-desc" data-e="" contenteditable="true">尚可打掼蛋，但不与人交谈</div></div>
-      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="" contenteditable="true">2026-07-11</div><div class="tl-title" data-e="" contenteditable="true">再次入院</div><div class="tl-desc" data-e="" contenteditable="true">化验：血糖 12、尿蛋白 2+、尿糖 3+；胸部 CT；头颅 MR+MRA；认知障碍评估</div></div>
-      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="" contenteditable="true">2026-07-13</div><div class="tl-title" data-e="" contenteditable="true">超声 ×4</div><div class="tl-desc" data-e="" contenteditable="true">颈部+双下肢血管、腹部、心脏（未见异常）、甲状腺</div></div>
-      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="" contenteditable="true">2026-07-14</div><div class="tl-title" data-e="" contenteditable="true">SWI 磁敏感成像</div><div class="tl-desc" data-e="" contenteditable="true">颅内未见明显异常信号及异常血管网</div></div>
-      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="" contenteditable="true">2026-07-17</div><div class="tl-title" data-e="" contenteditable="true">CTA + 诊断 7 项</div><div class="tl-desc" data-e="" contenteditable="true">右大脑中动脉闭塞、血管性痴呆等；当地意见：无支架条件，长期服药，每 3 个月复诊</div></div>
-      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="" contenteditable="true">2026-07-19</div><div class="tl-title" data-e="" contenteditable="true">化验 + 心电图</div><div class="tl-desc" data-e="" contenteditable="true">肌酐 114、LDL 2.43、甘油三酯 2.49 等 6 项异常；心电图正常窦性心律</div></div>
-      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="" contenteditable="true">2026-07-22</div><div class="tl-title" data-e="" contenteditable="true">办理出院</div><div class="tl-desc" data-e="" contenteditable="true">出院小结</div></div>
-      <div class="tl-item future item"><span class="del">✕</span><div class="tl-date" data-e="" contenteditable="true">2026-07-23（周四）</div><div class="tl-title" data-e="" contenteditable="true">程忻专家门诊</div><div class="tl-desc" data-e="" contenteditable="true">女儿代诊赴上海，携带全部资料</div></div>
+      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="">2002</div><div class="tl-title" data-e="">车祸致残</div><div class="tl-desc" data-e="">左肘关节缺如；曾装人工关节，严重排异未保留（四级肢体残疾）</div></div>
+      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="">2008</div><div class="tl-title" data-e="">胰腺炎后继发糖尿病</div><div class="tl-desc" data-e="">胰腺炎后发现血糖升高，至今 18 年；长期控制不佳（本次入院记录："血糖控制 1 年余"）</div></div>
+      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="">≈2013</div><div class="tl-title" data-e="">羽毛球外伤 · 右眼失明</div><div class="tl-desc" data-e="">打球时眼部受伤致右眼失明，此后运动减少</div></div>
+      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="">≈2020</div><div class="tl-title" data-e="">性格开始改变</div><div class="tl-desc" data-e="">其母去世前后起：情绪变冷、少言、不与人沟通、反应变慢</div></div>
+      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="">≈2025 年中</div><div class="tl-title" data-e="">日间嗜睡逐渐明显</div><div class="tl-desc" data-e="">白天随时入睡：玩手机、早饭后、下午活动后均能打盹</div></div>
+      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="">2025-10-08 ～ 16</div><div class="tl-title" data-e="">内分泌科住院 8 天</div><div class="tl-desc" data-e="">血糖控制不佳入院；出院诊断 13 项（糖尿病多并发症、高血压 2 级很高危、高脂血症等）</div></div>
+      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="">2026-06</div><div class="tl-title" data-e="">社交状态</div><div class="tl-desc" data-e="">尚可打掼蛋，但不与人交谈</div></div>
+      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="">2026-07-11</div><div class="tl-title" data-e="">再次入院（神经内科）</div><div class="tl-desc" data-e="">化验：血糖 12、尿蛋白 2+、尿糖 3+；胸部 CT；头颅 MR+MRA；认知障碍评估；住院初期曾发生 2 次低血糖</div></div>
+      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="">2026-07-13</div><div class="tl-title" data-e="">超声 ×4</div><div class="tl-desc" data-e="">颈部+双下肢血管、腹部、心脏（未见异常）、甲状腺</div></div>
+      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="">2026-07-14</div><div class="tl-title" data-e="">SWI 磁敏感成像</div><div class="tl-desc" data-e="">颅内未见明显异常信号及异常血管网</div></div>
+      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="">2026-07-17</div><div class="tl-title" data-e="">脑血管造影术（DSA）+ 诊断</div><div class="tl-desc" data-e="">右大脑中动脉闭塞、血管性痴呆？等；当地意见：无支架条件，长期服药，每 3 个月复诊</div></div>
+      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="">2026-07-19</div><div class="tl-title" data-e="">化验 + 心电图</div><div class="tl-desc" data-e="">肌酐 114、LDL 2.43、甘油三酯 2.49 等 6 项异常；心电图正常窦性心律</div></div>
+      <div class="tl-item item"><span class="del">✕</span><div class="tl-date" data-e="">2026-07-22</div><div class="tl-title" data-e="">出院（住院 11 天）</div><div class="tl-desc" data-e="">出院诊断 7 项（含"血管性痴呆？"待确诊）；DSA 伤口 I/甲愈合；带药 9 种；医嘱：双抗满 21 天改单药，出院后 1/3/6 个月复诊</div></div>
+      <div class="tl-item future item"><span class="del">✕</span><div class="tl-date" data-e="">2026-07-23（周四）</div><div class="tl-title" data-e="">程忻专家门诊</div><div class="tl-desc" data-e="">女儿代诊赴上海，携带全部资料</div></div>
+      <div class="tl-item future item"><span class="del">✕</span><div class="tl-date" data-e="">≈2026-08-01</div><div class="tl-title" data-e="">双抗满 21 天</div><div class="tl-desc" data-e="">按出院医嘱：阿司匹林/波立维任选其一 + 他汀长期（明天先与程医生确认方案）</div></div>
+      <div class="tl-item future item"><span class="del">✕</span><div class="tl-date" data-e="">出院后 1 / 3 / 6 个月</div><div class="tl-title" data-e="">复诊节点</div><div class="tl-desc" data-e="">神经内科复诊（≈8/22、10/22、2027-01/22）；另需肾内科、内分泌科随诊</div></div>
     </div>
     <button class="add" data-tpl="tpl-tl" data-for="#tl">＋ 添加时间点</button>
   </div>
@@ -254,152 +258,169 @@ footer{color:var(--muted); font-size:12px; text-align:center; margin:22px 0 8px;
 
 <!-- ============ 检查报告 ============ -->
 <div class="sec" id="s-rep">
-  <div class="sec-h"><h2>📋 检查报告记录</h2><span class="cnt">12 项 · 点开看详情</span></div>
-  <div class="note">原件存微信小程序（开远市人民医院），就诊时可现场出示；MR 纸质报告与用药清单截图已存手机相册；CTA 源文件（DICOM）在笔记本电脑。</div>
+  <div class="sec-h"><h2>📋 检查报告记录</h2><span class="cnt">13 项 · 点开看详情</span></div>
+  <div class="note">出院证、MR 纸质报告已打印携带；其余原件存微信小程序（开远市人民医院），就诊时可现场出示；DSA/CTA 源文件（DICOM）在笔记本电脑。</div>
 
   <div id="reports">
     <details class="rep item" open="">
-      <summary><span class="rd" data-e="" contenteditable="true">07-17</span><span class="rt" data-e="" contenteditable="true">脑动脉造影（CTA）· 诊断 7 项</span><span class="pill-imp">重要</span><span class="arrow">▶</span></summary>
+      <summary><span class="rd" data-e="">07-22</span><span class="rt" data-e="">出院证及诊断证明（神经内科，住院 11 天）</span><span class="pill-imp">重要</span><span class="arrow">▶</span></summary>
+      <div class="rb">
+        <ul class="b">
+          <li data-e="">入院：2026-07-11 10:12；出院：2026-07-22 10:16（共 11 天）；床号 031；主治医师：王保平</li>
+          <li data-e="">入院诊断：2 型糖尿病</li>
+          <li data-e="">出院诊断（7 项）：1.脑动脉供血不足 2.血管性痴呆？（待确诊）3.右侧大脑中动脉闭塞 4.继发性糖尿病伴多个并发症（血糖控制不佳、周围神经病、肾病、视网膜病变、周围血管病）5.高血压 2 级·很高危组 6.高脂血症 7.胆囊结石</li>
+          <li data-e="">入院记录："胰腺炎后发现血糖升高 18 年，血糖控制 1 年余"</li>
+          <li data-e="">查体要点：GCS 15 分；言语流利、无失语失用；计算力（100-7-7？）；近记忆力减退、主动性变差、情感稍淡漠；定向力可；四肢肌力 5 级、病理征阴性；步态正常；洼田饮水试验 1 级</li>
+          <li data-e="">治疗：改善循环、营养神经、控制血糖血压、改善认知记忆、抗血小板聚集、降血脂；脑血管造影（DSA）2026-07-17 09:07，伤口 I/甲愈合</li>
+          <li data-e="">出院医嘱：低盐低脂饮食、规律生活；适当运动避免劳累；保持心境平和；防跌倒；双抗满 21 天后任选其一 + 他汀长期（注意皮肤黏膜/消化道出血、肌痛、黄疸等不良反应，勿自行停换药）；血糖目标：空腹 6–9、餐后 8–11 mmol/L；出院后 1/3/6 个月神经内科复诊，肾内科、内分泌科随诊；突发口角歪斜/吐字不清/单侧无力/眩晕呕吐/剧烈头痛拨 7120120</li>
+        </ul>
+        <div class="note" data-e="">照片存档：原始资料/2026072201出院诊断.jpg、2026072202出院诊断.jpg。</div>
+      </div>
+      <span class="del">✕ 删除此报告</span>
+    </details>
+
+    <details class="rep item" open="">
+      <summary><span class="rd" data-e="">07-17</span><span class="rt" data-e="">脑血管造影术（DSA，09:07）· 诊断 7 项</span><span class="pill-imp">重要</span><span class="arrow">▶</span></summary>
       <div class="rb">
         <ol class="b">
-          <li data-e="" contenteditable="true">右侧大脑中动脉闭塞</li>
-          <li data-e="" contenteditable="true">血管性痴呆</li>
-          <li data-e="" contenteditable="true">脑动脉供血不足</li>
-          <li data-e="" contenteditable="true">继发性糖尿病伴多个并发症（血糖控制不佳、周围神经病、肾病、视网膜病变、周围血管病）</li>
-          <li data-e="" contenteditable="true">高血压 2 级，很高危组</li>
-          <li data-e="" contenteditable="true">高脂血症</li>
-          <li data-e="" contenteditable="true">胆囊结石</li>
+          <li data-e="">右侧大脑中动脉闭塞</li>
+          <li data-e="">血管性痴呆</li>
+          <li data-e="">脑动脉供血不足</li>
+          <li data-e="">继发性糖尿病伴多个并发症（血糖控制不佳、周围神经病、肾病、视网膜病变、周围血管病）</li>
+          <li data-e="">高血压 2 级，很高危组</li>
+          <li data-e="">高脂血症</li>
+          <li data-e="">胆囊结石</li>
         </ol>
-        <div class="note" data-e="" contenteditable="true">DICOM 源文件已存电脑；当地医生口头意见：中动脉完全塌陷、无支架条件，长期服药，每 3 个月复诊。</div>
+        <div class="note" data-e="">手术记录 88.4101，伤口 I/甲愈合；DICOM 源文件已存电脑；当地医生口头意见：中动脉完全塌陷、无支架条件，长期服药，每 3 个月复诊。</div>
       </div>
       <span class="del">✕ 删除此报告</span>
     </details>
 
-    <details class="rep item">
-      <summary><span class="rd" data-e="" contenteditable="true">07-11</span><span class="rt" data-e="" contenteditable="true">头颅 MR + MRA（报告 07-12 出具）</span><span class="pill-imp">重要</span><span class="arrow">▶</span></summary>
+    <details class="rep item" open="">
+      <summary><span class="rd" data-e="">07-11</span><span class="rt" data-e="">头颅 MR + MRA（报告 07-12 出具）</span><span class="pill-imp">重要</span><span class="arrow">▶</span></summary>
       <div class="rb">
         <ul class="b">
-          <li data-e="" contenteditable="true">脑干右侧、左侧基底节区、丘脑、半卵圆中心、双侧侧脑室旁、额叶、枕顶叶腔隙性脑梗死及缺血灶</li>
-          <li data-e="" contenteditable="true">轻度脑萎缩；脑白质稀疏</li>
-          <li data-e="" contenteditable="true">右侧大脑中动脉 M1 段管腔局部狭窄，M2 段及之后动脉大部分未见显示，仅一细小分支浅淡显示（建议结合 CTA）</li>
-          <li data-e="" contenteditable="true">右侧颈内动脉床突段（C5 段）管腔局部轻度狭窄</li>
+          <li data-e="">脑干右侧、左侧基底节区、丘脑、半卵圆中心、双侧侧脑室旁、额叶、枕顶叶腔隙性脑梗死及缺血灶</li>
+          <li data-e="">轻度脑萎缩；脑白质稀疏</li>
+          <li data-e="">右侧大脑中动脉 M1 段管腔局部狭窄，M2 段及之后动脉大部分未见显示，仅一细小分支浅淡显示（建议结合 CTA）</li>
+          <li data-e="">右侧颈内动脉床突段（C5 段）管腔局部轻度狭窄</li>
         </ul>
-        <div class="note" data-e="" contenteditable="true">纸质报告照片已存档（原始资料/颅脑MR20260710.jpg）。</div>
+        <div class="note" data-e="">纸质报告照片已存档（原始资料/颅脑MR20260710.jpg）。</div>
       </div>
       <span class="del">✕ 删除此报告</span>
     </details>
 
     <details class="rep item">
-      <summary><span class="rd" data-e="" contenteditable="true">07-19</span><span class="rt" data-e="" contenteditable="true">血清测定（6 项异常）</span><span class="arrow">▶</span></summary>
+      <summary><span class="rd" data-e="">07-19</span><span class="rt" data-e="">血清测定（6 项异常）</span><span class="arrow">▶</span></summary>
       <div class="rb">
         <ul class="b">
-          <li data-e="" contenteditable="true">肌酐 114（偏高，与糖尿病性肾病相关）</li>
-          <li data-e="" contenteditable="true">葡萄糖 8.62（偏高）</li>
-          <li data-e="" contenteditable="true">甘油三酯 2.49（偏高）</li>
-          <li data-e="" contenteditable="true">低密度脂蛋白胆固醇 LDL-C 2.43（很高危人群未达标，目标一般 &lt;1.8）</li>
-          <li data-e="" contenteditable="true">高密度脂蛋白胆固醇 HDL-C 0.68（偏低）</li>
-          <li data-e="" contenteditable="true">白球比 1.37（偏低）</li>
-        </ul>
-      </div>
-      <span class="del">✕ 删除此报告</span>
-    </details>
-
-    <details class="rep item">
-      <summary><span class="rd" data-e="" contenteditable="true">07-19</span><span class="rt" data-e="" contenteditable="true">心电图</span><span class="pill-ok">正常</span><span class="arrow">▶</span></summary>
-      <div class="rb"><div data-e="" contenteditable="true">正常窦性心律。（注：常规心电图正常不能排除阵发性房颤，是否做 24 小时 Holter 待确认）</div></div>
-      <span class="del">✕ 删除此报告</span>
-    </details>
-
-    <details class="rep item">
-      <summary><span class="rd" data-e="" contenteditable="true">07-14</span><span class="rt" data-e="" contenteditable="true">颅脑 MR 磁敏感加权成像（SWI）+ 平扫特殊方式成像</span><span class="pill-ok">未见异常</span><span class="arrow">▶</span></summary>
-      <div class="rb"><div data-e="" contenteditable="true">颅内未见明显异常信号及异常血管网；余颅内情况请结合平扫观察。</div></div>
-      <span class="del">✕ 删除此报告</span>
-    </details>
-
-    <details class="rep item">
-      <summary><span class="rd" data-e="" contenteditable="true">07-13</span><span class="rt" data-e="" contenteditable="true">超声 · 颈部血管 + 双下肢血管</span><span class="arrow">▶</span></summary>
-      <div class="rb">
-        <ul class="b">
-          <li data-e="" contenteditable="true">双侧颈总动脉粥样硬化斑块形成</li>
-          <li data-e="" contenteditable="true">双侧股总动脉、股浅动脉、股深动脉、腘动脉显示段内中膜增厚毛糙，粥样硬化多发斑块形成</li>
+          <li data-e="">肌酐 114（偏高，与糖尿病性肾病相关）</li>
+          <li data-e="">葡萄糖 8.62（偏高）</li>
+          <li data-e="">甘油三酯 2.49（偏高）</li>
+          <li data-e="">低密度脂蛋白胆固醇 LDL-C 2.43（很高危人群未达标，目标一般 &lt;1.8）</li>
+          <li data-e="">高密度脂蛋白胆固醇 HDL-C 0.68（偏低）</li>
+          <li data-e="">白球比 1.37（偏低）</li>
         </ul>
       </div>
       <span class="del">✕ 删除此报告</span>
     </details>
 
     <details class="rep item">
-      <summary><span class="rd" data-e="" contenteditable="true">07-13</span><span class="rt" data-e="" contenteditable="true">超声 · 心脏</span><span class="pill-ok">未见异常</span><span class="arrow">▶</span></summary>
-      <div class="rb"><div data-e="" contenteditable="true">静息状态下心内结构及血流未见明显异常；各腔室大小正常范围；左室收缩、舒张功能尚可。</div></div>
+      <summary><span class="rd" data-e="">07-19</span><span class="rt" data-e="">心电图</span><span class="pill-ok">正常</span><span class="arrow">▶</span></summary>
+      <div class="rb"><div data-e="">正常窦性心律。（注：常规心电图正常不能排除阵发性房颤；住院期间未做 24 小时 Holter）</div></div>
       <span class="del">✕ 删除此报告</span>
     </details>
 
     <details class="rep item">
-      <summary><span class="rd" data-e="" contenteditable="true">07-13</span><span class="rt" data-e="" contenteditable="true">超声 · 腹部</span><span class="arrow">▶</span></summary>
+      <summary><span class="rd" data-e="">07-14</span><span class="rt" data-e="">颅脑 MR 磁敏感加权成像（SWI）+ 平扫特殊方式成像</span><span class="pill-ok">未见异常</span><span class="arrow">▶</span></summary>
+      <div class="rb"><div data-e="">颅内未见明显异常信号及异常血管网；余颅内情况请结合平扫观察。</div></div>
+      <span class="del">✕ 删除此报告</span>
+    </details>
+
+    <details class="rep item">
+      <summary><span class="rd" data-e="">07-13</span><span class="rt" data-e="">超声 · 颈部血管 + 双下肢血管</span><span class="arrow">▶</span></summary>
       <div class="rb">
         <ul class="b">
-          <li data-e="" contenteditable="true">轻度脂肪肝</li>
-          <li data-e="" contenteditable="true">胆囊壁增厚毛糙；胆囊内多发点状强回声（考虑：胆囊多发小结石）；细密强回声（考虑：沉积物）</li>
-          <li data-e="" contenteditable="true">右肾小囊肿</li>
-          <li data-e="" contenteditable="true">前列腺轻度增生合并钙化斑</li>
+          <li data-e="">双侧颈总动脉粥样硬化斑块形成</li>
+          <li data-e="">双侧股总动脉、股浅动脉、股深动脉、腘动脉显示段内中膜增厚毛糙，粥样硬化多发斑块形成</li>
         </ul>
       </div>
       <span class="del">✕ 删除此报告</span>
     </details>
 
     <details class="rep item">
-      <summary><span class="rd" data-e="" contenteditable="true">07-13</span><span class="rt" data-e="" contenteditable="true">超声 · 甲状腺</span><span class="arrow">▶</span></summary>
+      <summary><span class="rd" data-e="">07-13</span><span class="rt" data-e="">超声 · 心脏</span><span class="pill-ok">未见异常</span><span class="arrow">▶</span></summary>
+      <div class="rb"><div data-e="">静息状态下心内结构及血流未见明显异常；各腔室大小正常范围；左室收缩、舒张功能尚可。</div></div>
+      <span class="del">✕ 删除此报告</span>
+    </details>
+
+    <details class="rep item">
+      <summary><span class="rd" data-e="">07-13</span><span class="rt" data-e="">超声 · 腹部</span><span class="arrow">▶</span></summary>
       <div class="rb">
         <ul class="b">
-          <li data-e="" contenteditable="true">甲状腺内部回声减低、增粗不均匀，请结合甲功，C-TIRADS 1 类</li>
-          <li data-e="" contenteditable="true">双侧颈部淋巴结可见</li>
+          <li data-e="">轻度脂肪肝</li>
+          <li data-e="">胆囊壁增厚毛糙；胆囊内多发点状强回声（考虑：胆囊多发小结石）；细密强回声（考虑：沉积物）</li>
+          <li data-e="">右肾小囊肿</li>
+          <li data-e="">前列腺轻度增生合并钙化斑</li>
         </ul>
       </div>
       <span class="del">✕ 删除此报告</span>
     </details>
 
     <details class="rep item">
-      <summary><span class="rd" data-e="" contenteditable="true">07-11</span><span class="rt" data-e="" contenteditable="true">胸部 CT</span><span class="arrow">▶</span></summary>
+      <summary><span class="rd" data-e="">07-13</span><span class="rt" data-e="">超声 · 甲状腺</span><span class="arrow">▶</span></summary>
       <div class="rb">
         <ul class="b">
-          <li data-e="" contenteditable="true">右肺中下叶多发钙化结节，征象同前</li>
-          <li data-e="" contenteditable="true">双肺下叶背侧坠积性表现</li>
+          <li data-e="">甲状腺内部回声减低、增粗不均匀，请结合甲功，C-TIRADS 1 类</li>
+          <li data-e="">双侧颈部淋巴结可见</li>
         </ul>
       </div>
       <span class="del">✕ 删除此报告</span>
     </details>
 
     <details class="rep item">
-      <summary><span class="rd" data-e="" contenteditable="true">07-11</span><span class="rt" data-e="" contenteditable="true">化验（血糖 / 尿常规异常项）</span><span class="arrow">▶</span></summary>
+      <summary><span class="rd" data-e="">07-11</span><span class="rt" data-e="">胸部 CT</span><span class="arrow">▶</span></summary>
       <div class="rb">
         <ul class="b">
-          <li data-e="" contenteditable="true">血糖 12（空腹/随机待确认）</li>
-          <li data-e="" contenteditable="true">尿蛋白 2+（与糖尿病性肾病诊断一致）</li>
-          <li data-e="" contenteditable="true">尿糖 3+</li>
+          <li data-e="">右肺中下叶多发钙化结节，征象同前</li>
+          <li data-e="">双肺下叶背侧坠积性表现</li>
         </ul>
-        <div class="note" data-e="" contenteditable="true">待补：糖化血红蛋白 HbA1c、肝肾功能全项、甲功。</div>
       </div>
       <span class="del">✕ 删除此报告</span>
     </details>
 
     <details class="rep item">
-      <summary><span class="rd" data-e="" contenteditable="true">2025-10-16</span><span class="rt" data-e="" contenteditable="true">出院诊断（内分泌·糖尿病科，住院 8 天，共 13 项）</span><span class="arrow">▶</span></summary>
+      <summary><span class="rd" data-e="">07-11</span><span class="rt" data-e="">化验（血糖 / 尿常规异常项）</span><span class="arrow">▶</span></summary>
+      <div class="rb">
+        <ul class="b">
+          <li data-e="">血糖 12（空腹/随机待确认）</li>
+          <li data-e="">尿蛋白 2+（与糖尿病性肾病诊断一致）</li>
+          <li data-e="">尿糖 3+</li>
+          <li data-e="">住院初期曾发生 2 次低血糖（50% 葡萄糖口服处理）</li>
+        </ul>
+      </div>
+      <span class="del">✕ 删除此报告</span>
+    </details>
+
+    <details class="rep item">
+      <summary><span class="rd" data-e="">2025-10-16</span><span class="rt" data-e="">出院诊断（内分泌·糖尿病科，住院 8 天，共 13 项）</span><span class="arrow">▶</span></summary>
       <div class="rb">
         <ol class="b">
-          <li data-e="" contenteditable="true">糖尿病伴有多个并发症：继发性糖尿病、血糖控制不佳、周围神经病变、周围血管病</li>
-          <li data-e="" contenteditable="true">高血压 2 级，很高危组</li>
-          <li data-e="" contenteditable="true">高脂血症</li>
-          <li data-e="" contenteditable="true">电解质代谢紊乱（低钠、低氯）</li>
-          <li data-e="" contenteditable="true">肺部结节</li>
-          <li data-e="" contenteditable="true">维生素 D 缺乏病</li>
-          <li data-e="" contenteditable="true">骨量减少</li>
-          <li data-e="" contenteditable="true">甲状腺结节</li>
-          <li data-e="" contenteditable="true">双眼代谢性白内障</li>
-          <li data-e="" contenteditable="true">脂肪肝</li>
-          <li data-e="" contenteditable="true">胆囊多发结石</li>
-          <li data-e="" contenteditable="true">右肾囊肿</li>
-          <li data-e="" contenteditable="true">前列腺增生</li>
+          <li data-e="">糖尿病伴有多个并发症：继发性糖尿病、血糖控制不佳、周围神经病变、周围血管病</li>
+          <li data-e="">高血压 2 级，很高危组</li>
+          <li data-e="">高脂血症</li>
+          <li data-e="">电解质代谢紊乱（低钠、低氯）</li>
+          <li data-e="">肺部结节</li>
+          <li data-e="">维生素 D 缺乏病</li>
+          <li data-e="">骨量减少</li>
+          <li data-e="">甲状腺结节</li>
+          <li data-e="">双眼代谢性白内障</li>
+          <li data-e="">脂肪肝</li>
+          <li data-e="">胆囊多发结石</li>
+          <li data-e="">右肾囊肿</li>
+          <li data-e="">前列腺增生</li>
         </ol>
-        <div class="note" data-e="" contenteditable="true">出院证照片已存档（原始资料/2025出院诊断.jpg）。</div>
+        <div class="note" data-e="">出院证照片已存档（原始资料/2025出院诊断.jpg）。</div>
       </div>
       <span class="del">✕ 删除此报告</span>
     </details>
@@ -407,21 +428,20 @@ footer{color:var(--muted); font-size:12px; text-align:center; margin:22px 0 8px;
   <button class="add" data-tpl="tpl-rep" data-for="#reports">＋ 添加报告</button>
 </div>
 
-<!-- ============ 用药 ============ -->
+<!-- ============ 出院带药 ============ -->
 <div class="sec" id="s-med">
-  <div class="sec-h"><h2>💊 目前用药</h2><span class="cnt">2026-07-11 住院起 · 小程序清单</span></div>
-  <div class="note">阿司匹林 + 氯吡格雷 = "双抗"（脑梗二级预防核心）；每日频次以病房医嘱单为准（待确认）。</div>
+  <div class="sec-h"><h2>💊 出院带药</h2><span class="cnt">2026-07-22 出院医嘱</span></div>
+  <div class="note">双抗自 7/11 起，医嘱：满 21 天（约 8/1）后阿司匹林/波立维任选其一 + 他汀长期。⚠️ 二甲双胍未出现在出院医嘱中（住院期间曾用，是否与肌酐 114/肾病有关，待问医生）。</div>
   <div class="card" id="meds">
-    <div class="med item"><div class="mn"><b data-e="" contenteditable="true">阿司匹林肠溶片</b><div class="md" data-e="" contenteditable="true">100mg/片 · 口服 每次 100mg</div></div><span class="mtag t-anti">抗血小板</span><span class="del">✕</span></div>
-    <div class="med item"><div class="mn"><b data-e="" contenteditable="true">硫酸氢氯吡格雷片</b><div class="md" data-e="" contenteditable="true">75mg/片 · 口服 每次 75mg</div></div><span class="mtag t-anti">抗血小板</span><span class="del">✕</span></div>
-    <div class="med item"><div class="mn"><b data-e="" contenteditable="true">阿托伐他汀钙片</b><div class="md" data-e="" contenteditable="true">20mg/片 · 口服 每次 20mg</div></div><span class="mtag t-stat">他汀降脂</span><span class="del">✕</span></div>
-    <div class="med item"><div class="mn"><b data-e="" contenteditable="true">尼麦角林片</b><div class="md" data-e="" contenteditable="true">30mg/片 · 口服 每次 30mg</div></div><span class="mtag t-brain">脑循环/认知</span><span class="del">✕</span></div>
-    <div class="med item"><div class="mn"><b data-e="" contenteditable="true">硝苯地平缓释片(II)</b><div class="md" data-e="" contenteditable="true">20mg/片 · 口服 每次 20mg</div></div><span class="mtag t-bp">降压</span><span class="del">✕</span></div>
-    <div class="med item"><div class="mn"><b data-e="" contenteditable="true">厄贝沙坦片</b><div class="md" data-e="" contenteditable="true">0.15g/片 · 口服 每次 0.15g</div></div><span class="mtag t-bp">降压/护肾</span><span class="del">✕</span></div>
-    <div class="med item"><div class="mn"><b data-e="" contenteditable="true">盐酸二甲双胍肠溶片</b><div class="md" data-e="" contenteditable="true">0.5g/片 · 口服 每次 0.5g</div></div><span class="mtag t-sugar">降糖</span><span class="del">✕</span></div>
-    <div class="med item"><div class="mn"><b data-e="" contenteditable="true">阿卡波糖片</b><div class="md" data-e="" contenteditable="true">50mg/片 · 口服 每次 50mg</div></div><span class="mtag t-sugar">降糖</span><span class="del">✕</span></div>
-    <div class="med item"><div class="mn"><b data-e="" contenteditable="true">达格列净片</b><div class="md" data-e="" contenteditable="true">10mg/片 · 口服 每次 10mg</div></div><span class="mtag t-sugar">降糖/心肾保护</span><span class="del">✕</span></div>
-    <div class="med item"><div class="mn"><b data-e="" contenteditable="true">50% 葡萄糖注射液</b><div class="md" data-e="" contenteditable="true">20ml:10g/支 · 口服 每次 40ml × 2 支（疑低血糖应急用，待确认）</div></div><span class="mtag t-other">应急?</span><span class="del">✕</span></div>
+    <div class="med item"><div class="mn"><b data-e="">阿司匹林肠溶片</b><div class="md" data-e="">每天 1 次，每次 1 片</div></div><span class="mtag t-anti">抗血小板</span><span class="del">✕</span></div>
+    <div class="med item"><div class="mn"><b data-e="">波立维（硫酸氢氯吡格雷片）</b><div class="md" data-e="">每天 1 次，每次 1 片</div></div><span class="mtag t-anti">抗血小板</span><span class="del">✕</span></div>
+    <div class="med item"><div class="mn"><b data-e="">阿托伐他汀钙片</b><div class="md" data-e="">每天 1 次，每晚 1 片</div></div><span class="mtag t-stat">他汀降脂</span><span class="del">✕</span></div>
+    <div class="med item"><div class="mn"><b data-e="">尼麦角林胶囊 30mg</b><div class="md" data-e="">口服，每天 1 次</div></div><span class="mtag t-brain">改善认知</span><span class="del">✕</span></div>
+    <div class="med item"><div class="mn"><b data-e="">硝苯地平缓释片 20mg</b><div class="md" data-e="">口服，每天 1 次，每次 1 片</div></div><span class="mtag t-bp">降压</span><span class="del">✕</span></div>
+    <div class="med item"><div class="mn"><b data-e="">厄贝沙坦 0.15g</b><div class="md" data-e="">每天 1 次，每次 1 片</div></div><span class="mtag t-bp">降压/护肾</span><span class="del">✕</span></div>
+    <div class="med item"><div class="mn"><b data-e="">阿卡波糖片 50mg</b><div class="md" data-e="">口服，每天 3 次，每次 1 片</div></div><span class="mtag t-sugar">降糖</span><span class="del">✕</span></div>
+    <div class="med item"><div class="mn"><b data-e="">达格列净片 10mg</b><div class="md" data-e="">每天 3 次，每次 1 片（出院医嘱原文如此；通常每日 1 次，待与医生确认）</div></div><span class="mtag t-sugar">降糖</span><span class="del">✕</span></div>
+    <div class="med item"><div class="mn"><b data-e="">泮托拉唑钠肠溶片（自备）</b><div class="md" data-e="">每天 1–2 次，每次 1 片；胃部不适时加用，无需长期服用</div></div><span class="mtag t-other">护胃</span><span class="del">✕</span></div>
     <button class="add" data-tpl="tpl-med" data-for="#meds">＋ 添加药品</button>
   </div>
 </div>
@@ -433,50 +453,51 @@ footer{color:var(--muted); font-size:12px; text-align:center; margin:22px 0 8px;
 
     <div class="qa-g">一、发病与症状经过</div>
     <div id="qa1">
-      <div class="qa item"><div class="q"><span class="qn">1.</span><span data-e="" contenteditable="true">有没有过突然发作的症状（一侧无力/麻木、说不清话、视物模糊黑朦、剧烈头晕）？什么时候、持续多久？</span></div><div class="ans" data-e="" contenteditable="true"></div><span class="del">✕</span></div>
-      <div class="qa item"><div class="q"><span class="qn">2.</span><span data-e="" contenteditable="true">记忆力/性格变化最早什么时候发现？先忘事还是先性格变？</span></div><div class="ans filled" data-e="" contenteditable="true">≈2020 年其母去世前后起性格变冷、少言、反应慢；之后逐渐加重。</div><span class="del">✕</span></div>
-      <div class="qa item"><div class="q"><span class="qn">3.</span><span data-e="" contenteditable="true">症状是一直慢慢加重，还是一阵一阵突然变差（阶梯式）？</span></div><div class="ans" data-e="" contenteditable="true">慢慢加重</div><span class="del">✕</span></div>
-      <div class="qa item"><div class="q"><span class="qn">4.</span><span data-e="" contenteditable="true">走路有没有变慢、拖步、小碎步？摔倒过吗？</span></div><div class="ans filled" data-e="" contenteditable="true">体能下降（爬山→山下等），每天仍能走约一万步；走路变慢，拖步。</div><span class="del">✕</span></div>
-      <div class="qa item"><div class="q"><span class="qn">5.</span><span data-e="" contenteditable="true">大小便控制不住从什么时候开始？</span></div><div class="ans filled" data-e="" contenteditable="true">近一年以来偶有控制不住现象。</div><span class="del">✕</span></div>
-      <div class="qa item"><div class="q"><span class="qn">6.</span><span data-e="" contenteditable="true">最近有没有新出现的症状？</span></div><div class="ans" data-e="" contenteditable="true"></div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">1.</span><span data-e="">有没有过突然发作的症状（一侧无力/麻木、说不清话、视物模糊黑朦、剧烈头晕）？什么时候、持续多久？</span></div><div class="ans" data-e=""></div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">2.</span><span data-e="">记忆力/性格变化最早什么时候发现？先忘事还是先性格变？</span></div><div class="ans filled" data-e="">≈2020 年其母去世前后起性格变冷、少言、反应慢；之后逐渐加重。</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">3.</span><span data-e="">症状是一直慢慢加重，还是一阵一阵突然变差（阶梯式）？</span></div><div class="ans filled" data-e="">慢慢加重。</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">4.</span><span data-e="">走路有没有变慢、拖步、小碎步？摔倒过吗？</span></div><div class="ans filled" data-e="">体能下降（爬山→山下等），每天仍能走约一万步；走路变慢、拖步。（住院查体记录：步态正常、无拖步）</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">5.</span><span data-e="">大小便控制不住从什么时候开始？</span></div><div class="ans filled" data-e="">近一年以来偶有控制不住现象。</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">6.</span><span data-e="">最近有没有新出现的症状？</span></div><div class="ans" data-e=""></div><span class="del">✕</span></div>
     </div>
     <button class="add" data-tpl="tpl-qa" data-for="#qa1">＋ 添加问题</button>
 
     <div class="qa-g">二、认知与日常生活</div>
     <div id="qa2">
-      <div class="qa item"><div class="q"><span class="qn">7.</span><span data-e="" contenteditable="true">生活能自理吗（吃饭、穿衣、洗澡、如厕）？</span></div><div class="ans filled" data-e="" contenteditable="true">可以</div><span class="del">✕</span></div>
-      <div class="qa item"><div class="q"><span class="qn">8.</span><span data-e="" contenteditable="true">会自己出门吗？会迷路吗？还会用钱买东西、接电话吗？</span></div><div class="ans filled" data-e="" contenteditable="true">可以</div><span class="del">✕</span></div>
-      <div class="qa item"><div class="q"><span class="qn">9.</span><span data-e="" contenteditable="true">认得家人吗？叫得出名字吗？</span></div><div class="ans" data-e="" contenteditable="true">家人可以，熟人/朋友会想不起来</div><span class="del">✕</span></div>
-      <div class="qa item"><div class="q"><span class="qn">10.</span><span data-e="" contenteditable="true">情绪怎么样？有无幻觉、多疑、发脾气？</span></div><div class="ans filled" data-e="" contenteditable="true">情绪偏冷漠、不与人交流；无幻觉/多疑。</div><span class="del">✕</span></div>
-      <div class="qa item"><div class="q"><span class="qn">11.</span><span data-e="" contenteditable="true">睡眠情况？晚上打鼾、憋醒吗？</span></div><div class="ans filled" data-e="" contenteditable="true">以往睡眠好；近一年日间过度嗜睡（坐着玩手机也能睡着）。偶尔打鼾。</div><span class="del">✕</span></div>
-      <div class="qa item"><div class="q"><span class="qn">12.</span><span data-e="" contenteditable="true">平时谁照顾？患者能配合检查吗？</span></div><div class="ans" data-e="" contenteditable="true">能自理，能配合</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">7.</span><span data-e="">生活能自理吗（吃饭、穿衣、洗澡、如厕）？</span></div><div class="ans filled" data-e="">可以。</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">8.</span><span data-e="">会自己出门吗？会迷路吗？还会用钱买东西、接电话吗？</span></div><div class="ans filled" data-e="">可以。</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">9.</span><span data-e="">认得家人吗？叫得出名字吗？</span></div><div class="ans filled" data-e="">家人可以，熟人/朋友会想不起来。</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">10.</span><span data-e="">情绪怎么样？有无幻觉、多疑、发脾气？</span></div><div class="ans filled" data-e="">情绪偏冷漠、不与人交流；无幻觉/多疑。</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">11.</span><span data-e="">睡眠情况？晚上打鼾、憋醒吗？</span></div><div class="ans filled" data-e="">以往睡眠好；近一年日间过度嗜睡（坐着玩手机也能睡着）；偶尔打鼾。</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">12.</span><span data-e="">平时谁照顾？患者能配合检查吗？</span></div><div class="ans filled" data-e="">能自理，能配合。</div><span class="del">✕</span></div>
     </div>
     <button class="add" data-tpl="tpl-qa" data-for="#qa2">＋ 添加问题</button>
 
     <div class="qa-g">三、用药与治疗反应</div>
     <div id="qa3">
-      <div class="qa item"><div class="q"><span class="qn">13.</span><span data-e="" contenteditable="true">双抗（阿司匹林+氯吡格雷）从哪天开始？有无牙龈出血、黑便、皮肤瘀斑？</span></div><div class="ans filled" data-e="" contenteditable="true">2026-07-11 住院起开始服用；出血情况待观察补充。</div><span class="del">✕</span></div>
-      <div class="qa item"><div class="q"><span class="qn">14.</span><span data-e="" contenteditable="true">吃他汀后有无肌肉酸痛？</span></div><div class="ans" data-e="" contenteditable="true"></div>无<span class="del">✕</span></div>
-      <div class="qa item"><div class="q"><span class="qn">15.</span><span data-e="" contenteditable="true">有过低血糖发作吗？</span></div>初入院时发生过两次低血糖<div class="ans" data-e="" contenteditable="true"></div><span class="del">✕</span></div>
-      <div class="qa item"><div class="q"><span class="qn">16.</span><span data-e="" contenteditable="true">以前还吃过什么药？有无自行停药、减药？</span></div><div class="ans" data-e="" contenteditable="true">高血压药，降糖药，降脂药</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">13.</span><span data-e="">双抗（阿司匹林+氯吡格雷）从哪天开始？有无牙龈出血、黑便、皮肤瘀斑？</span></div><div class="ans filled" data-e="">2026-07-11 住院起双抗（出院医嘱：满 21 天后改单药）；出血情况待观察补充。</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">14.</span><span data-e="">吃他汀后有无肌肉酸痛？</span></div><div class="ans filled" data-e="">无。</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">15.</span><span data-e="">有过低血糖发作吗？</span></div><div class="ans filled" data-e="">初入院时发生过两次低血糖（住院期间发 50% 葡萄糖口服即用于此）。</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">16.</span><span data-e="">以前还吃过什么药？有无自行停药、减药？</span></div><div class="ans filled" data-e="">高血压药、降糖药、降脂药（具体药名待补充）。</div><span class="del">✕</span></div>
     </div>
     <button class="add" data-tpl="tpl-qa" data-for="#qa3">＋ 添加问题</button>
 
     <div class="qa-g">四、基础病管理</div>
     <div id="qa4">
-      <div class="qa item"><div class="q"><span class="qn">17.</span><span data-e="" contenteditable="true">高血压、糖尿病各多少年了？最高血压多少？</span></div><div class="ans filled" data-e="" contenteditable="true">高血压去年发现，最高169，糖尿病2008至今，最高18。</div><span class="del">✕</span></div>
-      <div class="qa item"><div class="q"><span class="qn">18.</span><span data-e="" contenteditable="true">平时测血压/血糖吗？大概多少？有记录吗？</span></div><div class="ans" data-e="" contenteditable="true">偶尔测，血压现基本正常，血糖经常10以上</div><span class="del">✕</span></div>
-      <div class="qa item"><div class="q"><span class="qn">19.</span><span data-e="" contenteditable="true">糖尿病并发症以前系统查过吗（眼底、尿微量白蛋白、神经传导）？</span></div><div class="ans filled" data-e="" contenteditable="true">2025-10 住院确诊周围神经病变/周围血管病；本次新增肾病、视网膜病变。</div><span class="del">✕</span></div>
-      <div class="qa item"><div class="q"><span class="qn">20.</span><span data-e="" contenteditable="true">身高、体重？</span></div><div class="ans" data-e="" contenteditable="true">170cm 67kg</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">17.</span><span data-e="">高血压、糖尿病各多少年了？最高血压多少？</span></div><div class="ans filled" data-e="">高血压 2025 年发现，最高 169；糖尿病 2008 至今（18 年前胰腺炎后继发），最高 18。</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">18.</span><span data-e="">平时测血压/血糖吗？大概多少？有记录吗？</span></div><div class="ans filled" data-e="">偶尔测；血压现基本正常，血糖经常 10 以上。</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">19.</span><span data-e="">糖尿病并发症以前系统查过吗（眼底、尿微量白蛋白、神经传导）？</span></div><div class="ans filled" data-e="">2025-10 住院确诊周围神经病变/周围血管病；本次新增肾病、视网膜病变。</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">20.</span><span data-e="">入院记录写"血糖控制 1 年余"——此前十几年是否未规范治疗/监测血糖？</span></div><div class="ans" data-e=""></div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">21.</span><span data-e="">身高、体重？</span></div><div class="ans filled" data-e="">170cm，67kg。</div><span class="del">✕</span></div>
     </div>
     <button class="add" data-tpl="tpl-qa" data-for="#qa4">＋ 添加问题</button>
 
     <div class="qa-g">五、生活与家族史</div>
     <div id="qa5">
-      <div class="qa item"><div class="q"><span class="qn">21.</span><span data-e="" contenteditable="true">吸烟多少年、每天多少？戒烟了吗？喝酒吗？</span></div><div class="ans filled" data-e="" contenteditable="true">以前约每天 1 包（烟龄40年）；2026-07 住院起戒烟中；饮酒较少。</div><span class="del">✕</span></div>
-      <div class="qa item"><div class="q"><span class="qn">22.</span><span data-e="" contenteditable="true">直系亲属有无中风、心梗、痴呆？</span></div><div class="ans" data-e="" contenteditable="true">无</div><span class="del">✕</span></div>
-      <div class="qa item"><div class="q"><span class="qn">23.</span><span data-e="" contenteditable="true">有无药物/食物过敏？</span></div><div class="ans filled" data-e="" contenteditable="true">人工关节严重排异史（2002车祸后）；林可霉素和氟哌酸过敏。</div><span class="del">✕</span></div>
-      <div class="qa item"><div class="q"><span class="qn">24.</span><span data-e="" contenteditable="true">手术外伤史？</span></div><div class="ans filled" data-e="" contenteditable="true">2002车祸致左肘关节缺如；≈20183 羽毛球外伤致一眼失明。</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">22.</span><span data-e="">吸烟多少年、每天多少？戒烟了吗？喝酒吗？</span></div><div class="ans filled" data-e="">烟龄 40 年，以前约每天 1 包；2026-07 住院起戒烟中；饮酒较少。</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">23.</span><span data-e="">直系亲属有无中风、心梗、痴呆？</span></div><div class="ans filled" data-e="">无。</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">24.</span><span data-e="">有无药物/食物过敏？</span></div><div class="ans filled" data-e="">林可霉素、氟哌酸过敏；人工关节严重排异史（2002 车祸后）。</div><span class="del">✕</span></div>
+      <div class="qa item"><div class="q"><span class="qn">25.</span><span data-e="">手术外伤史？</span></div><div class="ans filled" data-e="">2002 车祸致左肘关节缺如；≈2013 羽毛球外伤致右眼失明。</div><span class="del">✕</span></div>
     </div>
     <button class="add" data-tpl="tpl-qa" data-for="#qa5">＋ 添加问题</button>
 
@@ -487,14 +508,15 @@ footer{color:var(--muted); font-size:12px; text-align:center; margin:22px 0 8px;
 <div class="sec" id="s-ask">
   <div class="sec-h"><h2>🗣️ 我们要问医生的问题</h2><span class="cnt">就诊时记录答复</span></div>
   <div class="card" id="ask">
-    <div class="qa item"><div class="q"><span class="qn">1.</span><span data-e="" contenteditable="true">右大脑中动脉闭塞，除了长期服药，还有没有别的选择（如搭桥等手术评估的必要）？</span></div><div class="ans" data-e="" contenteditable="true"></div><span class="del">✕</span></div>
-    <div class="qa item"><div class="q"><span class="qn">2.</span><span data-e="" contenteditable="true">双抗要吃多久？之后改单药吗？他汀剂量要不要加（LDL 2.43 未达标）？</span></div><div class="ans" data-e="" contenteditable="true"></div><span class="del">✕</span></div>
-    <div class="qa item"><div class="q"><span class="qn">3.</span><span data-e="" contenteditable="true">血管性痴呆目前到什么程度？需要加改善认知的药吗（如多奈哌齐、美金刚）？</span></div><div class="ans" data-e="" contenteditable="true"></div><span class="del">✕</span></div>
-    <div class="qa item"><div class="q"><span class="qn">4.</span><span data-e="" contenteditable="true">近一年日间嗜睡和脑供血不足有关吗？需要排查什么（如睡眠呼吸暂停）？</span></div><div class="ans" data-e="" contenteditable="true"></div><span class="del">✕</span></div>
-    <div class="qa item"><div class="q"><span class="qn">5.</span><span data-e="" contenteditable="true">复查安排：多久一次、查哪些项目？在昆明/开远当地复查可以吗？</span></div><div class="ans" data-e="" contenteditable="true"></div><span class="del">✕</span></div>
-    <div class="qa item"><div class="q"><span class="qn">6.</span><span data-e="" contenteditable="true">血压、血糖、血脂控制目标分别是多少？</span></div><div class="ans" data-e="" contenteditable="true"></div><span class="del">✕</span></div>
-    <div class="qa item"><div class="q"><span class="qn">7.</span><span data-e="" contenteditable="true">目前认知状态下还能开车吗？（近年小事故多）</span></div><div class="ans" data-e="" contenteditable="true"></div><span class="del">✕</span></div>
-    <div class="qa item"><div class="q"><span class="qn">8.</span><span data-e="" contenteditable="true">需要康复训练或认知训练吗？戒烟有什么具体建议？</span></div><div class="ans" data-e="" contenteditable="true"></div><span class="del">✕</span></div>
+    <div class="qa item"><div class="q"><span class="qn">1.</span><span data-e="">右大脑中动脉闭塞，除了长期服药，还有没有别的选择（如搭桥等手术评估的必要）？</span></div><div class="ans" data-e=""></div><span class="del">✕</span></div>
+    <div class="qa item"><div class="q"><span class="qn">2.</span><span data-e="">双抗要吃多久？之后改单药吗？他汀剂量要不要加（LDL 2.43 未达标）？</span></div><div class="ans filled" data-e="">当地出院医嘱：双抗满 21 天后任选其一 + 他汀长期（约 8/1）——请程医生确认。</div><span class="del">✕</span></div>
+    <div class="qa item"><div class="q"><span class="qn">3.</span><span data-e="">当地出院诊断写"血管性痴呆？"（打了问号）——能确诊吗？到什么程度？需要加改善认知的药吗（如多奈哌齐、美金刚）？</span></div><div class="ans" data-e=""></div><span class="del">✕</span></div>
+    <div class="qa item"><div class="q"><span class="qn">4.</span><span data-e="">近一年日间嗜睡和脑供血不足有关吗？需要排查什么（如睡眠呼吸暂停）？</span></div><div class="ans" data-e=""></div><span class="del">✕</span></div>
+    <div class="qa item"><div class="q"><span class="qn">5.</span><span data-e="">复查安排：多久一次、查哪些项目？在昆明/开远当地复查可以吗？</span></div><div class="ans filled" data-e="">当地计划：出院后 1/3/6 个月神经内科复诊，肾内科、内分泌科随诊——想听上海方案。</div><span class="del">✕</span></div>
+    <div class="qa item"><div class="q"><span class="qn">6.</span><span data-e="">血压、血糖、血脂控制目标分别是多少？</span></div><div class="ans filled" data-e="">当地给的血糖目标：空腹 6–9、餐后 8–11 mmol/L——血压、血脂目标请程医生明确。</div><span class="del">✕</span></div>
+    <div class="qa item"><div class="q"><span class="qn">7.</span><span data-e="">目前认知状态下还能开车吗？（近年小事故多）</span></div><div class="ans" data-e=""></div><span class="del">✕</span></div>
+    <div class="qa item"><div class="q"><span class="qn">8.</span><span data-e="">需要康复训练或认知训练吗？戒烟有什么具体建议？</span></div><div class="ans" data-e=""></div><span class="del">✕</span></div>
+    <div class="qa item"><div class="q"><span class="qn">9.</span><span data-e="">出院带药无二甲双胍（住院期间曾用）——是否因肌酐 114/肾病停用？降糖方案需要调整吗？</span></div><div class="ans" data-e=""></div><span class="del">✕</span></div>
     <button class="add" data-tpl="tpl-ask" data-for="#ask">＋ 添加问题</button>
   </div>
 </div>
@@ -503,23 +525,24 @@ footer{color:var(--muted); font-size:12px; text-align:center; margin:22px 0 8px;
 <div class="sec" id="s-todo">
   <div class="sec-h"><h2>✅ 待确认 / 待办</h2><span class="cnt">随时可打勾，自动保存</span></div>
   <div class="card" id="todo">
-    <label class="todo item"><input type="checkbox" checked=""><span class="tt"><span class="star">⭐</span> <span data-e="" contenteditable="true">核对就诊医院和院区（中山/华山？以挂号短信为准）</span></span><span class="del">✕</span></label>
-    <label class="todo item"><input type="checkbox"><span class="tt"><span data-e="" contenteditable="true">向病房要：认知障碍评估量表报告（名称+得分）</span></span><span class="del">✕</span></label>
-    <label class="todo item"><input type="checkbox" checked=""><span class="tt"><span data-e="" contenteditable="true">向病房要：完整化验单（糖化血红蛋白、肝肾功、甲功）</span></span><span class="del">✕</span></label>
-    <label class="todo item"><input type="checkbox"><span class="tt"><span data-e="" contenteditable="true">确认用药每日频次；50% 葡萄糖口服的用途</span></span><span class="del">✕</span></label>
-    <label class="todo item"><input type="checkbox"><span class="tt"><span data-e="" contenteditable="true">问病房：是否做过 24 小时动态心电图（Holter）</span></span><span class="del">✕</span></label>
-    <label class="todo item"><input type="checkbox"><span class="tt"><span data-e="" contenteditable="true">若 7/23 前不出院：请病房开诊断证明 + 复印住院检查报告（出院小结出院后补）</span></span><span class="del">✕</span></label>
-    <label class="todo item"><input type="checkbox" checked=""><span class="tt"><span data-e="" contenteditable="true">笔记本电脑装 DICOM 阅读器（RadiAnt/MicroDicom）并测试打开 CTA 源文件</span></span><span class="del">✕</span></label>
-    <label class="todo item"><input type="checkbox"><span class="tt"><span data-e="" contenteditable="true">就诊前：笔记本/手机充满电、带充电器；小程序提前登录</span></span><span class="del">✕</span></label>
-    <label class="todo item"><input type="checkbox"><span class="tt"><span data-e="" contenteditable="true">手机视频整理到一个相册，按"日期-内容"重命名</span></span><span class="del">✕</span></label>
-    <label class="todo item"><input type="checkbox"><span class="tt"><span data-e="" contenteditable="true">补齐回忆题：失明眼左/右、烟龄、有无急性发病事件、血压记录</span></span><span class="del">✕</span></label>
-    <label class="todo item"><input type="checkbox"><span class="tt"><span data-e="" contenteditable="true">带父亲身份证原件、医保卡；本人也带身份证</span></span><span class="del">✕</span></label>
+    <label class="todo item"><input type="checkbox" checked=""><span class="tt"><span class="star">⭐</span> <span data-e="">核对就诊医院和院区（中山/华山？以挂号短信为准）</span></span><span class="del">✕</span></label>
+    <label class="todo item"><input type="checkbox" checked=""><span class="tt"><span data-e="">出院证/出院小结已拿到（7/22，神经内科，住院 11 天）</span></span><span class="del">✕</span></label>
+    <label class="todo item"><input type="checkbox" checked=""><span class="tt"><span data-e="">向病房要：完整化验单（糖化血红蛋白、肝肾功、甲功）</span></span><span class="del">✕</span></label>
+    <label class="todo item"><input type="checkbox" checked=""><span class="tt"><span data-e="">用药频次已按出院医嘱更新（二甲双胍未带出，待问医生）</span></span><span class="del">✕</span></label>
+    <label class="todo item"><input type="checkbox" checked=""><span class="tt"><span data-e="">笔记本电脑装 DICOM 阅读器（RadiAnt/MicroDicom）并测试打开源文件</span></span><span class="del">✕</span></label>
+    <label class="todo item"><input type="checkbox"><span class="tt"><span data-e="">认知评估量表得分未见；出院证查体记录：计算力（100-7-7？）、近记忆力减退——明天请程医生现场评估</span></span><span class="del">✕</span></label>
+    <label class="todo item"><input type="checkbox"><span class="tt"><span data-e="">住院未做 24 小时 Holter（心电图正常）——是否需要做，明天问</span></span><span class="del">✕</span></label>
+    <label class="todo item"><input type="checkbox"><span class="tt"><span data-e="">剩余回忆题：问答区第 1 题（有无急性发病时刻）、第 20 题（此前血糖管理情况）</span></span><span class="del">✕</span></label>
+    <label class="todo item"><input type="checkbox"><span class="tt"><span data-e="">就诊前：笔记本/手机充满电、带充电器；小程序提前登录</span></span><span class="del">✕</span></label>
+    <label class="todo item"><input type="checkbox"><span class="tt"><span data-e="">手机视频整理到一个相册，按"日期-内容"重命名</span></span><span class="del">✕</span></label>
+    <label class="todo item"><input type="checkbox"><span class="tt"><span data-e="">明早出发前：本页打印（打印时自动展开报告）；最终版转发妈妈</span></span><span class="del">✕</span></label>
+    <label class="todo item"><input type="checkbox"><span class="tt"><span data-e="">带齐：就诊函、出院证原件、父亲身份证、本人身份证、MR 纸质报告</span></span><span class="del">✕</span></label>
     <button class="add" data-tpl="tpl-todo" data-for="#todo">＋ 添加待办</button>
   </div>
 
   <footer>
     本页由家属整理，供就诊参考，非医疗诊断。<br>
-    初始版 2026-07-19 · 手机端点底部"✏️ 编辑"可增删改，改动自动保存在本机；<br>
+    初始版 2026-07-19 · 2026-07-22 纳入出院证（住院 11 天）· 手机端点底部"✏️ 编辑"可增删改，改动自动保存在本机；<br>
     点"导出新版"生成更新后的 HTML 文件，微信转发即是最新版。
   </footer>
 </div>
@@ -543,11 +566,11 @@ footer{color:var(--muted); font-size:12px; text-align:center; margin:22px 0 8px;
   <button id="btnExport" type="button">📤 导出新版</button>
   <button id="btnReset" type="button">↺ 恢复初始</button>
 </div>
-<div class="toast" id="toast">已保存 ✓</div>
+<div class="toast" id="toast"></div>
 
 <script>
 (function(){
-  var KEY='ly_page_v1', TS='ly_page_ts';
+  var KEY='ly_page_v2', TS='ly_page_ts2';
   var main=document.getElementById('main');
   var toastEl=document.getElementById('toast');
   var updLine=document.getElementById('updLine');
@@ -560,7 +583,7 @@ footer{color:var(--muted); font-size:12px; text-align:center; margin:22px 0 8px;
     return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+' '+p(d.getHours())+':'+p(d.getMinutes()); }
 
   function save(){
-    if(editing){ document.querySelectorAll('#main [contenteditable]').forEach(function(el){ el.removeAttribute('contenteditable'); }); }
+    document.querySelectorAll('#main [contenteditable]').forEach(function(el){ el.removeAttribute('contenteditable'); });
     try{
       localStorage.setItem(KEY, main.innerHTML);
       var t=nowStr(); localStorage.setItem(TS,t);
@@ -582,10 +605,10 @@ footer{color:var(--muted); font-size:12px; text-align:center; margin:22px 0 8px;
     document.body.classList.toggle('editing',on);
     document.getElementById('btnEdit').textContent = on ? '✓ 完成（保存）' : '✏️ 编辑';
     if(on){ setEditable(true); toast('编辑模式：点文字直接改，点 ＋ 添加'); }
-    else{ save(); toast('已保存 ✓'); }
+    else{ setEditable(false); save(); toast('已保存 ✓'); }
   }
 
-  /* 恢复上次保存的内容 */
+  /* 恢复上次保存的内容（仅限本版本 KEY） */
   try{
     var saved=localStorage.getItem(KEY);
     if(saved){ main.innerHTML=saved; var t=localStorage.getItem(TS); if(t){ updLine.textContent='最近更新 '+t; } }
